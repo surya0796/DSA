@@ -1,18 +1,3 @@
-// const user = {
-//     name: "Surya",
-//     address: {
-//         personal: {
-//             city: "delhi",
-//             area: "rohini",
-//             pincode: "110086"
-//         },
-//         office: {
-//             city: "haryana",
-//             area: "gurgaon",
-//             pincode: "122002"
-//         }
-//     }
-// }
 const fibonacci = (num) => {
     if (num < 2) {
         return num;
@@ -40,31 +25,6 @@ function callFibonacci(position) {
 
 console.log(callFibonacci(6))
 
-// const newUser = {}
-// function destructNesting(obj, keyArr) {
-//     debugger
-//     if (keyArr === undefined) {
-//         keyArr = []
-//     }
-//     for ( const key in obj) {
-//         if (obj[key] === Object(obj[key])) {
-//             keyArr.push(key)
-//             return destructNesting(obj[key], keyArr)
-//             // something to reinitiate the same function 
-//         }
-//         else {
-//             let newKey = key
-//             if (keyArr?.length !== 0) {
-//                 newKey = keyArr?.join("_")
-//                 keyArr.pop()
-//             } 
-//             newUser[newKey] = obj[key]
-//         }
-//     }
-
-// }
-// destructNesting(user)
-// console.log(newUser);
 // const board = [
 //     ["5", "3", ".", ".", "7", ".", ".", ".", "."],
 //     ["6", ".", ".", "1", "9", "5", ".", ".", "."],

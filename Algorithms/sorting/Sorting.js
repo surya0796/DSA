@@ -28,7 +28,7 @@ function selectionSort(array) {
           array[pointer]=temp
       }
       return array
-  }
+}
 
 function threeNumberSort(array,order){
     length = array.length;
